@@ -28,7 +28,7 @@ jobs:
         run: mvn clean install
  
       - name: Publish to GitHub Packages
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml -X
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
  
