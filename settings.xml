@@ -5,7 +5,7 @@
         <server>
             <id>github</id>
             <username>SwethaK100</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <password>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</password>
         </server>
     </servers>
 </settings>
