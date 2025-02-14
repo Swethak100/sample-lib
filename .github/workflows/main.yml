@@ -30,7 +30,7 @@ jobs:
       - name: Publish to GitHub Packages
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml -X
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: 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
  
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
